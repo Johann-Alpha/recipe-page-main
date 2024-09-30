@@ -1,0 +1,148 @@
+:root {
+--White: hsl(0, 0%, 100%);
+
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+
+--Brown-800: hsl(14, 45%, 36%);
+
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400 700;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "young-serif-regular";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-display: fallback;
+}
+
+body {
+    background-color: var(--Stone-100);
+    font-family: outfit, sans-serif;
+}
+
+
+main {
+    background-color: white;
+    padding-top: 2.5em;
+    padding-bottom: 2,5em;
+}
+
+
+h1 {
+    color: var(--Stone-900);
+    font-family: "young-serif-regular";
+    font-size: 2.25em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+header p {
+    font-family: outfit, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone-600);
+}
+
+.preparation {
+    background-color: var(--Rose-50);
+    padding: 1.5em;
+}
+
+.preparation h2 {
+    color: var(--Rose-800);
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+.preparation ul {
+    margin-left: 0.5em;
+}
+
+ul {
+    list-style: disc;
+    list-style-position: outside;
+    color: var(--Rose-800);
+    margin-left: .5em;
+}
+
+ul li::marker {
+    font-size: .25em;
+    width: 25em;
+    height: 25em;
+    padding-right: .75em;
+}
+
+ul li {
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+.highlighted-text {
+    color: var(--Stone-600);
+    font-weight: 700;
+}
+
+span {
+    color: var(--Stone-600);
+    font-weight: 400;
+}
+
+.preparation div, .template div {
+    margin-left: 1em;
+}
+
+section {
+    margin: 2em 0;
+    font-size: 1em;
+}
+
+section:first-child, section:last-child {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+.template h2 {
+    font-size: 1.75em;
+    color: var(--Brown-800);
+    margin-bottom: 1.5em;
+}
+
+.template li {
+    color: var(--Brown-800);
+}
+
+.template span {
+    color: var(--Stone-600);
+}
+
+hr {
+    border: none;
+    background-color: var(--Stone-150);
+    color: var(--Stone-150);
+    height: 1px;
+}
+
+
+
