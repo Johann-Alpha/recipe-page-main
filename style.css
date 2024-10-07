@@ -101,7 +101,7 @@ ul li::marker {
 ul li {
     margin-left: 1em;
     margin-bottom: 0.5em;
-    margin-top: .5em;
+    /* margin-top: .5em; */
 }
 
 ul li:first-child {
@@ -132,6 +132,11 @@ span {
 
 .preparation div {
     margin-left: 1em;
+    margin-top: .5rem;
+}
+
+.preparation div:first-child {
+    margin-top: 0;
 }
 
 section {
@@ -146,11 +151,11 @@ section:first-child, section:last-child {
 
 .list-element-container {
     display: flex;
+    align-items: center;
 }
 
 .bullet-point {
     display: flex;
-    align-items: center;
     padding-right: .75em;
 }
 
