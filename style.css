@@ -308,6 +308,7 @@ hr {
     .middle-container {
         box-sizing: border-box;
         max-width: 46em;
+        border-radius: 1.5em;
     }
 
     img {
