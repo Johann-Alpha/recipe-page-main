@@ -64,7 +64,7 @@ img {
 .preparation {
     background-color: var(--Rose-50);
     padding: 1.5em;
-    border-radius: 1.5em;
+    border-radius: .75rem;
 }
 
 .preparation h2 {
@@ -308,7 +308,6 @@ hr {
     .middle-container {
         box-sizing: border-box;
         max-width: 46em;
-        border-radius: 1.5em;
     }
 
     img {
