@@ -81,29 +81,14 @@ img {
 
 .preparation li {
     list-style-type: none;
-    font-size: 1em;
-    line-height: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
-/* ul {
-    list-style: disc;
-    list-style-position: outside;
-    color: var(--Rose-800);
-    margin-left: .5em;
-}
-
-ul li::marker {
-    font-size: .25em;
-    width: 25em;
-    height: 25em;
-    padding-right: .75em;
-} */
 
 ul li {
     margin-left: 1em;
     margin-bottom: 0.5rem;
-    margin-top: .5rem;
-    /* margin-top: .5em; */
 }
 
 ul li:first-child {
@@ -154,6 +139,7 @@ section:first-child, section:last-child {
 .list-element-container {
     display: flex;
     align-items: center;
+    margin-top: .5rem;
 }
 
 .bullet-point {
@@ -302,14 +288,6 @@ hr {
     .paragraph-style {
         margin-top: 1.5em;
     }
-    /* main {
-        padding: 2.5em;
-    }
-
-    body {
-        display: flex;
-        padding: 10.6666667em 3em;
-    } */
 }
 
 @media screen and (min-width: 1440px) {
