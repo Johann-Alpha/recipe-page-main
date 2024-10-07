@@ -258,7 +258,8 @@ hr {
     }
 
     .middle-container {
-        width: 38.5em;
+        box-sizing: border-box;
+        max-width: 38.5em;
         padding: 2.5em;
         padding-bottom: 0;
         background-color: white;
@@ -282,6 +283,7 @@ hr {
 
     img {
         border-radius: .75em;
+        max-height: 18.75em;
     }
 
     .paragraph-style {
@@ -299,7 +301,12 @@ hr {
 
 @media screen and (min-width: 1440px) {
     .middle-container {
-        width: 46em;
+        box-sizing: border-box;
+        max-width: 46em;
+    }
+
+    img {
+        max-height: 18.75em;
     }
 }
 
