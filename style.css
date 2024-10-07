@@ -47,6 +47,7 @@ h1 {
 
 header p {
     font-size: 1em;
+    line-height: 1.25em;
 }
 
 img {
@@ -79,6 +80,8 @@ img {
 
 .preparation li {
     list-style-type: none;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 /* ul {
@@ -98,10 +101,23 @@ ul li::marker {
 ul li {
     margin-left: 1em;
     margin-bottom: 0.5em;
+    margin-top: .5em;
+}
+
+ul li:first-child {
+    margin-top: 0;
 }
 
 ul li:last-child {
     margin-bottom: 0;
+}
+
+ol li {
+    margin-top: .5em;
+}
+
+ol li:first-child {
+    margin-top: 0;
 }
 
 .highlighted-text {
@@ -227,6 +243,10 @@ hr {
     height: 1px;
 }
 
+.list-element-container {
+    margin-left: .5em;
+}
+
 @media screen and (min-width: 375px) {
     main {
         padding: 2.5em 2em;
@@ -239,13 +259,15 @@ hr {
         /* display: block; */
     }
 
-    /* main {
-        padding: 0;
-    } */
+    main {
+        padding: 2.5em 0;
+
+    }
 
     .middle-container {
         width: 38.5em;
         padding: 2.5em;
+        padding-bottom: 0;
         background-color: white;
         border-radius: 1.5em;
     }
@@ -261,8 +283,16 @@ hr {
         padding: 8em 4em;
     }
 
+    .title {
+        font-size: 2.5em;
+    }
+
     img {
         border-radius: .75em;
+    }
+
+    .paragraph-style {
+        margin-top: 1.5em;
     }
     /* main {
         padding: 2.5em;
