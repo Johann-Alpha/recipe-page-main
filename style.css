@@ -176,7 +176,8 @@ ol {
 }
 
 ol li {
-    margin-left: 1em;
+    margin-left: 1rem;
+    padding-left: 1rem;
 }
 
 ol li::marker {
